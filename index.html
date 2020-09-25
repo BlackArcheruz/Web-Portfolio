@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Designer Web Page</title>
+    <script src="../Web-Portfolio/js/app.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.js"></script>
+    <script src="https://kit.fontawesome.com/a076d05399.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+    <nav>
+        <ul>
+  <li class="logo">Jason Von Doe</li>
+  <li class="items"><a href="#work">Work</a></li>
+  <li class="items"><a href="#About">About</a></li>
+  <li class="items"><a href="#">Blogs</a></li>
+  <li class="items"><a href="#contact">Contact</a></li>
+  <li class="btn"><a href="#"><i class="fas fa-bars"></i></a></li>
+  </ul>
+  </nav>
+  <script>
+      $(document).ready(function(){
+    $('.btn').click(function(){
+      $('.items').toggleClass("show");
+      $('ul li').toggleClass("hide");
+    });
+  });
+  </script>
+  <section id="showcase">
+      <div class="container">
+          <div class="showcase-content">
+              <h1>I capture the most beatiful<br>moments of people's lives</h1>
+              <button class="button">Hire Me</button><br><br><br>
+              <a href="#"><i class="fas fa-chevron-down fa-3x"></i></a>
+      </div>
+  </section>
+  <div class="social-media">
+    <h1>Follow Us On:</h1>
+    <a href="https://www.instagram.com"><i class="fab fa-instagram fa-2x"></i></a>
+    <a href="https://www.facebook.com"><i class="fab fa-facebook fa-2x"></i></a>
+    <a href="https://www.twitter.com"><i class="fab fa-twitter fa-2x"></i></a>
+</div>
+</div>
+</header>
+<div class="dark-overlay">
+<div id="work">
+<div class="text">
+<h1>This is My first Work</h1>
+<hr>
+<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rerum sint porro perspiciatis fuga ipsa ex adipisci sed incidunt odit blanditiis, fugit, aperiam ea! Voluptate possimus ratione consequatur quo nulla voluptatibus. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nulla cumque architecto beatae, ad, atque adipisci facilis incidunt dolorum quisquam repellendus inventore! Animi sapiente reprehenderit omnis, exercitationem similique consectetur quis veniam?</p>
+</div>
+<div class="img">
+
+</div>
+<div class="text2" id="About">
+    <h1>About</h1>
+    <hr>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque, eos illo? Assumenda quia non temporibus perferendis doloribus necessitatibus nobis impedit, quibusdam molestias beatae repudiandae accusantium porro laborum asperiores voluptatum quos! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Neque officiis ad magni architecto et obcaecati repellendus accusamus provident similique incidunt fuga repudiandae, magnam quod id aut. Obcaecati distinctio sunt ullam?</p>
+</div>
+<div class="img2"></div>
+<div class="text3">
+    <h1 id="contact">Contact</h1>
+    <hr>
+    <p>Jason Von Doe</p>
+    <a href="+1(920) 490 0092"><i id="phone" class="fas fa-phone-square fa-3x"></i></a><span>+1(920) 490 0092</span>
+    <br>
+    <a href="contact@jasonvondoe@gmail.com"><i id="email" class="fas fa-envelope fa-3x"></i></a><span>+1(920) 490 0092</span>
+    <p> I work in: 06:00-18:00 <br> Lorem, ipsum dolor sit amet consectetur adipisicing elit.</p>    
+</div>
+    <div class="img3">
+    
+    </div>
+</div>
+</div>
+<footer id="main-footer">
+    <p class="footer-paragraph"> &copy;2020 Jason Von Doe - All Rights Reserved</p>
+</footer>
+</body>
+</html>
